@@ -1,0 +1,58 @@
+body{
+  width:100vw;
+  background-color: #F9E6CF;
+  overflow-x: hidden;
+}
+@media (max-width:1440px) and (min-width:375px){
+  body{
+    width:100vw;
+  }
+}
+.navbar{
+  background-color: white;
+  position:fixed;
+  top:0;
+  padding-top:5px;
+  padding-bottom:5px;
+  width:100%;
+  left:0;
+  right:0;
+}
+.nav-items{
+  color:#432316;
+  font-weight:bolder;
+  font-family:'Times New Roman';
+  text-decoration: none;
+}
+
+.hello{
+  text-align: center;
+  font-size: 2.5rem;
+  font-style: italic;
+  color:#432316;
+  text-decoration: underline;
+}
+.nav-links{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.about-me{
+  font-weight:bolder;
+  color:rgb(0, 0, 0);
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+  text-align: center;
+}
+.skills-section{
+  text-align: center;
+  color:#432316;
+  font-size:2rem;
+  text-decoration:underline;
+  font-family: 'Times New Roman', Times, serif;
+}
+.about-skills{
+  font-size:1em;
+  font-weight:200;
+  color:rgb(0, 0, 0);
+  padding-left:20px;
+}
