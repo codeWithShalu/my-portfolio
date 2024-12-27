@@ -52,7 +52,23 @@ body{
 }
 .about-skills{
   font-size:1em;
-  font-weight:200;
+  font-weight:bolder;
   color:rgb(0, 0, 0);
   padding-left:20px;
 }
+.skill-info{
+  display:flex;
+  flex-direction: row;
+
+}
+.skill-img{
+  padding-left:30px;
+  padding-top:30px;
+}
+.skill-intro{
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  padding-left:20px;
+}
+
