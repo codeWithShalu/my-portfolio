@@ -2,6 +2,7 @@ body{
   width:100vw;
   background-color: #F9E6CF;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 .navbar{
   background-color: white;
@@ -19,16 +20,16 @@ body{
   font-family:'Times New Roman';
   text-decoration: none;
 }
+.nav-links{
+  display:flex;
+  justify-content: space-evenly;
+}
 .hello{
   text-align: center;
   font-size: 2.5rem;
   font-style: italic;
   color:#432316;
   text-decoration: underline;
-}
-.nav-links{
-  display:flex;
-  justify-content: space-evenly;
 }
 .about-me{
   font-weight:bolder;
@@ -115,8 +116,6 @@ body{
   text-align: right;
   padding-right:30px;
 }
-
-
 @media (max-width:375px){
   body{
   width:100%;
